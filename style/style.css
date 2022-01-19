@@ -46,6 +46,13 @@ section{
 }
 
 
+
+
+
+
+
+
+
 .heading{
   text-align: center;
   color:#fff;
@@ -670,6 +677,31 @@ section{
     padding:5rem 2rem;
     text-align: center;
 }
+
+
+.contact .share{
+  padding:1rem 0;
+  text-align: center;
+}
+
+.contact .share a{
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 3rem;
+  color:#fff;
+  border:var(--border);
+  margin:.3rem;
+  border-radius: 50%;
+}
+
+.contact .share a:hover{
+  background-color: var(--main-color);
+  color: #010103;
+}
+
+
+
 
 .contact .row form h3{
     text-transform: uppercase;

@@ -10,8 +10,13 @@
 
      <!-- font awesome cdn link  -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
+
+<!--========== EFEK ==========-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
 <body>
+
+
 
   
 
@@ -40,11 +45,11 @@
 
     <section class="home" id="home">
 
-        <div class="content">
+        <div class="content" data-aos="fade-up"> 
             <h3>Hai, perkenalkan saya</h3>
             <h2>Fahrul Rozzy</h2>
             <p>Dan berikut adalah portofolio dan resume saya.</p>
-            <a href="#about" class="btn">Lanjut untuk lebih mengenal</a>
+            <a href="#about" class="btn">Lanjut untuk lebih mengenal saya</a>
         </div>
     
     </section>
@@ -54,16 +59,16 @@
 
         <h1 class="heading" id="about"> <span>Tentang</span> Saya </h1>
     
-        <div class="row">
+        <div class="row" data-aos="fade-up">
     
             <div class="image">
-                <img src="img/2.jpg" alt="">
+                <img src="img/2.jpeg" alt="">
             </div>
     
             <div class="content">
-                <h5>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h5>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                <a href="#skill" class="btn">learn more</a>
+                <h5>Saya adalah seorang yang terorganisir, menyukai hal detail dan termotivasi dengan visi untuk mengkolaborasikan ide-ide dengan detail dan kreativitas.</h5>
+                <p>Suka dapat bekerja dengan tim ataupun individu dan memberikan kinerja terbaik untuk mempelajari segala sesuatu mulai dari komunikasi yang baik dengan semua orang.</p>
+                <a href="#skill" class="btn">Berikut beberapa keahlian saya</a>
             </div>
     
         </div>
@@ -76,7 +81,7 @@
 
       <h1 class="heading">  <span>Keahlian</span> Saya </h1>
   
-      <div class="box-container">
+      <div class="box-container" data-aos="fade-up">
   
           <div class="box">
               <img src="img/design.png" alt="">
@@ -122,7 +127,7 @@
 
 
 
-<section class="resume" id="resume">
+<section class="resume" id="resume" data-aos="fade-up">
   <h1 class="heading">  <span>resume</span> saya </h1>
 
     <input id="layar-1" type="radio" name="radio-set" class="layar-selector-1" checked="checked" />
@@ -186,7 +191,7 @@
                 <!-- filter Items -->
                 <h1 class="heading"> <span>Portofolio</span> saya</h1>
                 <nav>
-                  <div class="items">
+                  <div class="items" data-aos="fade-up">
                     <span class="item active" data-name="all">Semua</span>
                     <span class="item" data-name="desain">Desain Grafis</span>
                     <span class="item" data-name="video">Video Editing</span>
@@ -196,7 +201,7 @@
                   </div>
                 </nav>
                 <!-- filter Images -->
-                <div class="gallery">
+                <div class="gallery" data-aos="fade-up">
                   <div class="image" data-name="desain"><span><img src="img/background.jpg" alt=""></span>
                 <p>Satu</p>
                 </div>
@@ -253,20 +258,16 @@
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.55640923543584!2d107.67334405031407!3d-6.902256769240552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dd612211479f%3A0x519b2fb750e4b0ba!2zNsKwNTQnMDguMSJTIDEwN8KwNDAnMjQuMiJF!5e0!3m2!1sid!2sid!4v1642467490269!5m2!1sid!2sid" allowfullscreen="" loading="lazy"></iframe>
 
         <form action="">
-            <h3>get in touch</h3>
-            <div class="inputBox">
-                <span class="fas fa-user"></span>
-                <input type="text" placeholder="name">
-            </div>
-            <div class="inputBox">
-                <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="email">
-            </div>
-            <div class="inputBox">
-                <span class="fas fa-phone"></span>
-                <input type="number" placeholder="number">
-            </div>
-            <input type="submit" value="contact now" class="btn">
+            <h3>Hubungi</h3>
+          
+
+            <div class="share">
+              <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
+              <a href="#https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/fahrul-rozzy" target="_blank" class="fab fa-linkedin"></a>
+              <a href="https://wa.me/083811896014/?text=Hi%2C%20Fahrul%20Rozzy%20saya%20ingin%20bertemu%20dengan%20anda%20dan%20membuat%20janji%20temu.%0ATerima%20kasih" class="fab fa-whatsapp" target="_blank"></a>
+          </div>
+
         </form>
 
     </div>
@@ -280,12 +281,12 @@
 
 <section class="footer">
 
-  <div class="share">
+  <!-- <div class="share">
       <a href="#a" class="fab fa-facebook-f"></a>
       <a href="#a" class="fab fa-instagram"></a>
       <a href="#a" class="fab fa-linkedin"></a>
       <a href="#a" class="fab fa-whatsapp"></a>
-  </div>
+  </div> -->
 
 
   <div class="credit">created by <span>Fahrul Rozzy</span> </div>
@@ -295,6 +296,15 @@
 
     <!-- custom js file link  -->
 <script src="js/script.js"></script>
+
+
+<!--========== SCROLL REVEAL ==========-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     
 </body>
 </html>
