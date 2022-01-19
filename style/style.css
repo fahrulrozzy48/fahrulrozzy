@@ -133,8 +133,9 @@ section{
     display: flex;
     align-items: center;
     background:url(../img/background.jpg) no-repeat;
-    background-size: cover;
     background-position: center;
+  background-size: cover;
+  position: relative;
     
 }
 
@@ -801,9 +802,11 @@ section{
   
 
   .home{
-      background-position: left;
       justify-content: center;
       text-align: center;
+      background-position: center;
+  background-size: cover;
+  position: relative;
   }
 
   .home .content h3{
