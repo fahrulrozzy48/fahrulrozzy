@@ -641,7 +641,7 @@ section{
       justify-content: center;
     }
     nav .items span{
-      margin: 5px;
+      margin: 2px;
     }
     .gallery .image{
       width: 100%;
@@ -651,6 +651,7 @@ section{
 
 
 
+  
 
 
 
@@ -861,10 +862,57 @@ section{
       font-size: 50%;
   }
 
+  .home .content h3{
+    font-size: 3rem;
+}
+
   .home .content h2{
     font-size: 4rem;
     text-transform: uppercase;
     color:#fff;
 }
 
+.about .row .content h5 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.about .row .content p {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  line-height: 1;
+}
+
+}
+
+
+
+
+/* add custom cursor */
+.typewriter::after {
+  content: "|";
+  display: inline;
+  animation: blink 1s infinite;
+}
+
+/* custom cursor animation */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* footer layout */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  text-align: center;
 }
