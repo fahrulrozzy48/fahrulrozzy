@@ -887,6 +887,52 @@ section{
 
 
 
+
+
+.button-penghargaan {
+  background-color: #d3ad7f;
+}
+
+.button-penghargaan {
+  line-height: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  border: none;
+  color: #13131a;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.button-penghargaan {
+  color: #13131a;
+  border: 1px solid #13131a;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.button-penghargaan:hover {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+
+
+
+
+
+
+
 /* add custom cursor */
 .typewriter::after {
   content: "|";
